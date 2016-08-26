@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2016, Bigsens, LLC
- * Simple example of the host service with connection to the Service Gateway
+ * A simple example of the host service with connection to the Service Gateway
  * That example can be implemented on any language with TCP socket support
  * Author: Constantin Alexandrov
  */
@@ -28,7 +28,7 @@ function main() {
 			data : {
 				guid : guid, // Mandatory field
 				name : 'Hello World Service', // Mandatory field
-				description : 'Simple example of the host service with connection to CGS'
+				description : 'Simple host service with connection to the Service Gateway'
 			}
 		}
 
